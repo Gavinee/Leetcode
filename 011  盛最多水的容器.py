@@ -8,7 +8,31 @@
 """
 __author__ = 'Qiufeng'
 
-
+class Solution:
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        front = 0                 #前指针
+        behind = len(height)-1    #后指针
+        max1Area = []
+        length = 0
+        max1 = 0
+        
+        while((front<len(height)-1 and behind > 0)and behind >front):
+            length = behind - front
+            max1Area.append(length*min(height[front],height[behind]))
+            if height[front]>height[behind]:
+                behind = behind - 1
+            else :
+                front = front + 1 
+            
+        for i in range(0,len(max1Area),1):
+            if max1<max1Area[i] :
+                max1 = max1Area[i]
+        return max1
+            
 
 
 
