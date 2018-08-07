@@ -29,9 +29,7 @@ class Solution:
                 return s
             else :
                 return s[-1]                    #s[-1]是数组最后一个元素
-        else:
-            
-            
+        else:            
             i = 1
             temp =0
             dict1 = {len(s)-1:1}
