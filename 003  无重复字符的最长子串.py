@@ -10,3 +10,48 @@
 """
 __author__ = 'Qiufeng'
 
+class Solution:
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        dict1 = {}
+        prt1 = 0        #指针1  首地址
+        prt2 = 1        #指针2  尾地址
+        slist = []
+        ptr = []
+        
+        if len(s) == 0:
+            return 0
+        if len(s) == 1:
+            return 1
+        
+        for i in range(0,len(s),1):
+            slist.append(s[i])
+        
+        i = 0
+        flag = True
+        while i<len(slist):
+            temp = slist[prt1:prt2] 
+            if temp.count(slist[prt2])==0:
+                prt2+=1
+                if flag == True:
+                    dict1[prt1] = prt2-prt1
+                    ptr.append(dict1[prt1])
+            else:
+                dict1[prt1] = prt2-prt1
+                ptr.append(dict1[prt1])
+                prt1 = prt1 + temp.index(slist[prt2])+1
+                temp = []
+                flag = False
+            i=prt2
+            if i == len(slist)-1:
+                flag =True
+
+        Max = 0
+        for key in dict1:
+            if Max < dict1[key]:
+                Max = dict1[key]
+                
+        return Max
