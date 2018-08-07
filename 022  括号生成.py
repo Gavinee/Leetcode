@@ -24,10 +24,8 @@ class Solution:
         
         answer = addParenthesis(n-1,Parenthesis)        #调用函数，得到生成的list
         
-        stringOne = getnewList(answer)                 
-        #将多维list转换为一维list,参考别人的代码 
-        #https://blog.csdn.net/zouyang2014/article/details/77129157
-        
+        stringOne = getnewList(answer)                
+	
         j =1                               
         """
         j的作用是字符串生成个数，i%((2*n)*j-1) == 0 
@@ -50,7 +48,7 @@ class Solution:
         
         return stringList
         
-def addParenthesis(n,Parenthesis):
+def addParenthesis(n,Parenthesis):			#回溯
     temp = []                                               
     tmp = []
     if n == 0:
@@ -85,10 +83,12 @@ def addParenthesis(n,Parenthesis):
             
             res = []
             tmp = []
-    return temp
+    return te
 
 
-def getnewList(newlist):
+#将多维list转换为一维list,参考别人的代码 
+#https://blog.csdn.net/zouyang2014/article/details/77129157
+def getnewList(newlist):				#将多维list转换为一维list
 	d = []
 	for element in newlist:
 		if not isinstance(element,list):
