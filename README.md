@@ -8,7 +8,7 @@ LeetCode题目解答
 [002 两数相加](https://github.com/Gavinee/Leetcode/blob/master/002%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.py)<br>
 [003 无重复字符的最长子串](https://github.com/Gavinee/Leetcode/blob/master/003%20%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.py)<br>
 [005 最长回文子串](https://github.com/Gavinee/Leetcode/blob/master/005%20%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py)<br>
-[006 Z字形变换](https://github.com/Gavinee/Leetcode/blob/master/006%20%20Z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2)<br>
+[006 Z字形变换](https://github.com/Gavinee/Leetcode/blob/master/006%20%20Z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.py)<br>
 [007 反转整数](https://github.com/Gavinee/Leetcode/blob/master/007%20%20%E5%8F%8D%E8%BD%AC%E6%95%B4%E6%95%B0.py)<br>
 [009 回文数](https://github.com/Gavinee/Leetcode/blob/master/009%20%20%E5%9B%9E%E6%96%87%E6%95%B0.py)<br>
 [011 盛最多水的容器](https://github.com/Gavinee/Leetcode/blob/master/011%20%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.py)<br>
