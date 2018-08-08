@@ -1,5 +1,5 @@
 ![LeetCode](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533671877942&di=b9dae09be4cda52750ebc48f16f98696&imgtype=0&src=http%3A%2F%2Fpic1.zhimg.com%2Fv2-0c435ab948b151fd834be55f80a09794_r.jpg)
-# Leetcode
+# LeetCode
 LeetCode题目解答
 # 更新
 由于最初的leetcode解答并没有优化，所以在之后会更新优化后的代码
