@@ -55,7 +55,7 @@ class Solution:
                     #先将items中元素从小到大排序
                     #如果combination中无现有的items,则将items加到combination
                     items.append(temp)
-                    #将temp的值赋值给cnt,再将cnt加到combination中
+                    #将temp的值赋值给cnt,再将cnt进行排序，然后将cnt加到combination中
                     for j in items:
                         cnt.append(j)
                     cnt.sort()
