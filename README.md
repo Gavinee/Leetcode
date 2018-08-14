@@ -28,6 +28,7 @@ LeetCode题目解答
 [104 二叉树的最大深度](https://github.com/Gavinee/Leetcode/blob/master/104%20%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.py)<br>
 [122 买卖股票的最佳时机 II](https://github.com/Gavinee/Leetcode/blob/master/122%20%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.py)<br>
 [134 加油站](https://github.com/Gavinee/Leetcode/blob/master/134%20%20%E5%8A%A0%E6%B2%B9%E7%AB%99.py)<br>
+[145 二叉树的后序遍历](https://github.com/Gavinee/Leetcode/blob/master/145%20%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86.py)<br>
 [376 摆动序列](https://github.com/Gavinee/Leetcode/blob/master/376%20%20%E6%91%86%E5%8A%A8%E5%BA%8F%E5%88%97.py)<br>
 [392 判断子序列](https://github.com/Gavinee/Leetcode/blob/master/392%20%20%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97.py)<br>
 [435 无重叠区间](https://github.com/Gavinee/Leetcode/blob/master/435%20%20%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4.py)<br>
