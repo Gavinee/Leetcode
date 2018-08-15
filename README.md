@@ -18,6 +18,7 @@ LeetCode题目解答
 [020 有效的括号](https://github.com/Gavinee/Leetcode/blob/master/020%20%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.py)<br>
 [021 合并两个有序链表](https://github.com/Gavinee/Leetcode/blob/master/021%20%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.py)<br>
 [022 括号生成](https://github.com/Gavinee/Leetcode/blob/master/022%20%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.py)<br>
+[026 删除排序数组中的重复项](https://github.com/Gavinee/Leetcode/blob/master/026%20%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.py)<br>
 [028 实现strStr()](https://github.com/Gavinee/Leetcode/blob/master/028%20%20%E5%AE%9E%E7%8E%B0strStr().py)<br>
 [035 搜索插入位置](https://github.com/Gavinee/Leetcode/blob/master/035%20%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE.py)<br>
 [039 组合总和](https://github.com/Gavinee/Leetcode/blob/master/039%20%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.py)<br>
