@@ -52,3 +52,5 @@ class Solution(object):
                 count[0] = count[0]+1
             else:
                 self.dynamicProgramming(count,col,row+1,rect)
+
+                
