@@ -20,7 +20,7 @@
 2.  1 阶 + 2 阶
 3.  2 阶 + 1 阶
 """
-__author__
+__author__ = 'Qiufeng'
 
 #                               超时程序（递归形式）
 class Solution(object):
