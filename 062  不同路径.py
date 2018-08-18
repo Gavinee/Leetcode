@@ -28,7 +28,7 @@ class Solution(object):
         :type n: int    行       row
         :rtype: int
         """
-        rect= [m,n]
+        rect= [n,m]
         count = [0]     #有count[0]种方案
         col = 0
         row = 0
@@ -37,22 +37,23 @@ class Solution(object):
         return count[0]
     
     def dynamicProgramming(self,count,col,row,rect):
-        if col == rect[0]-1 and row == rect[1]-1:
+        if row == rect[0]-1 and col == rect[1]-1:
             count[0] = count[0]+1
             return 
         
-        if col <rect[0]-1:
-            if row == rect[1]-1:
+        if row <rect[0]-1:
+            if col == rect[1]-1:
                 count[0] = count[0]+1
                 return
             else:
                 self.dynamicProgramming(count,col+1,row,rect)
-        if row <rect[1]-1:
-            if col == rect[0]-1:
+        if col <rect[1]-1:
+            if row == rect[0]-1:
                 count[0] = count[0]+1
             else:
                 self.dynamicProgramming(count,col,row+1,rect)
 
+        
 #                                通过的程序    
 class Solution(object):
     def uniquePaths(self, m, n):
