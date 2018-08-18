@@ -53,4 +53,17 @@ class Solution(object):
             else:
                 self.dynamicProgramming(count,col,row+1,rect)
 
-                
+#                                通过的程序    
+class Solution(object):
+    def uniquePaths(self, m, n):
+        """
+        :type m: int    行       col
+        :type n: int    列       row
+        :rtype: int
+        """
+        tt=[[1 for i in range(n)] for i in range(m)]  
+        for i in range(1,m):
+            for j in range(1,n):
+                tt[i][j]=tt[i-1][j]+tt[i][j-1]
+        return tt[m-1][n-1]
+        
