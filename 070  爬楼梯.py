@@ -22,7 +22,7 @@
 """
 __author__
 
-#       超时程序（递归形式）
+#                               超时程序（递归形式）
 class Solution(object):
     def climbStairs(self, n):
         """
