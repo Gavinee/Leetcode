@@ -48,3 +48,29 @@ class Solution(object):
                 step+=2
                 self.dynamicProgramming(count,n,step)
                 step-=2
+
+                
+#                               通过的程序
+class Solution(object):
+    def climbStairs(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        dp = []
+        for i in range(0,n+1,1):
+            dp.append(0)
+
+        dp[1] = 1
+        if n ==1:
+            return dp[1]
+        
+        dp[2] = 2
+        if n==2:
+            return dp[2]
+        
+        for i in range(3,n+1,1):
+            dp[i] = dp[i-1]+dp[i-2]
+            
+        return dp[n]
+                
