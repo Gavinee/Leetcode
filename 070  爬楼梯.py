@@ -48,7 +48,3 @@ class Solution(object):
                 step+=2
                 self.dynamicProgramming(count,n,step)
                 step-=2
-
-
-
-
