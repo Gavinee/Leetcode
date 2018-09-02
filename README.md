@@ -35,6 +35,8 @@ LeetCode题目解答
 [100 相同的树](https://github.com/Gavinee/Leetcode/blob/master/100%20%20%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91.py)<br>
 [101 对称二叉树](https://github.com/Gavinee/Leetcode/blob/master/101%20%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.py)<br>
 [104 二叉树的最大深度](https://github.com/Gavinee/Leetcode/blob/master/104%20%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.py)<br>
+[105 从前序与中序遍历序列构造二叉树](https://github.com/Gavinee/Leetcode/blob/master/105%20%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.py)<br>
+[106 从中序与后序遍历序列构造二叉树](https://github.com/Gavinee/Leetcode/blob/master/106%20%20%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.py)<br>
 [111 二叉树的最小深度](https://github.com/Gavinee/Leetcode/blob/master/111%20%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6.py)<br>
 [112 路径总和](https://github.com/Gavinee/Leetcode/blob/master/112%20%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C.py)<br>
 [122 买卖股票的最佳时机 II](https://github.com/Gavinee/Leetcode/blob/master/122%20%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.py)<br>
