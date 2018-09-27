@@ -30,7 +30,7 @@ LeetCode题目解答
 [060 第k个排列](https://github.com/Gavinee/Leetcode/blob/master/060%20%20%E7%AC%ACk%E4%B8%AA%E6%8E%92%E5%88%97.cpp)<br>
 [062 不同路径](https://github.com/Gavinee/Leetcode/blob/master/062%20%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.py)<br>
 [064 最小路径和](https://github.com/Gavinee/Leetcode/blob/master/064%20%20%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.py)<br>
-[066 加一.cpp](https://github.com/Gavinee/Leetcode/blob/master/066%20%20%E5%8A%A0%E4%B8%80.cpp)<br>
+[066 加一](https://github.com/Gavinee/Leetcode/blob/master/066%20%20%E5%8A%A0%E4%B8%80.cpp)<br>
 [070 爬楼梯](https://github.com/Gavinee/Leetcode/blob/master/070%20%20%E7%88%AC%E6%A5%BC%E6%A2%AF.py)<br>
 [073 矩阵置零](https://github.com/Gavinee/Leetcode/blob/master/073%20%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6.cpp)<br>
 [083 删除排序链表中的重复元素](https://github.com/Gavinee/Leetcode/blob/master/083%20%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.py)<br>
