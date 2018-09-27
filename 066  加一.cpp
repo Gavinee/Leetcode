@@ -18,6 +18,7 @@
 
 //author = Qiufeng
 
+//程序一   8ms
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -43,6 +44,36 @@ public:
                     temp.push_back(digits[i]);
                 }
                 return temp;
+            }
+            index--;
+        }
+        return digits;
+    }
+};
+
+
+//程序二   4ms
+
+class Solution {
+public:
+    vector<int> plusOne(vector<int>& digits) {
+        
+        int index = digits.size()-1;
+        int on = 0;
+        while(index>=0)
+        {
+            
+            if(index == digits.size()-1)
+                digits[index] = digits[index] + 1;
+            digits[index] = digits[index]+on;
+            on = digits[index]/10;
+            if(on<1)
+                return digits;
+            digits[index]%=10;
+            if(index==0)
+            {
+                digits.insert(digits.begin(),1);
+                return digits;
             }
             index--;
         }
