@@ -29,6 +29,7 @@
 
 //author = Qiufeng
 
+/*************************方法一******************************/
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -55,6 +56,45 @@ public:
                     del++;
                     for (int s = i; s < nums.size() - 1; s++)
                         nums[s] = nums[s + 1];
+                    continue;
+                }
+            }
+            else
+            {
+                count = 1;
+                sumCount++;
+                temp = nums[i];
+            }
+            i++;
+        }
+        return sumCount;
+    }
+};
+
+/*************************方法二******************************/
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int sumCount = 0;
+        if(nums.size()==0)
+            return sumCount;
+        
+        int temp = nums[0];
+        int i = 1;
+        int count = 1;
+        sumCount = 1;
+        while (i < nums.size())
+        {
+            if (temp == nums[i])
+            {
+                if (count <2)
+                {
+                    count++;
+                    sumCount++;
+                }
+                else
+                {
+                    nums.erase(nums.begin()+i);
                     continue;
                 }
             }
