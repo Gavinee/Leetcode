@@ -27,6 +27,7 @@ LeetCode题目解答
 [046 全排列](https://github.com/Gavinee/Leetcode/blob/master/046%20%20%E5%85%A8%E6%8E%92%E5%88%97.py)<br>
 [053 最大子序和](https://github.com/Gavinee/Leetcode/blob/master/053%20%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.py)<br>
 [055 跳跃游戏](https://github.com/Gavinee/Leetcode/blob/master/055%20%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.py)<br>
+[056 合并区间](https://github.com/Gavinee/Leetcode/blob/master/056%20%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.cpp)<br>
 [058 最后一个单词的长度](https://github.com/Gavinee/Leetcode/blob/master/058%20%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6.py)<br>
 [060 第k个排列](https://github.com/Gavinee/Leetcode/blob/master/060%20%20%E7%AC%ACk%E4%B8%AA%E6%8E%92%E5%88%97.cpp)<br>
 [062 不同路径](https://github.com/Gavinee/Leetcode/blob/master/062%20%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.py)<br>
