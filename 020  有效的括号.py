@@ -30,6 +30,8 @@
 """
 __author__ = 'Qiufeng'
 
+################################方法一#######################################
+
 class Solution:
     def isValid(self, s):
         """
@@ -111,3 +113,58 @@ class Solution:
                 continue
                 
         return True 
+
+    
+##########################################方法二###########################################
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def push(self,item):
+        self.items.append(item)
+
+    def pop(self):
+        return self.items.pop()
+
+    def is_empty(self):
+        return self.items == []
+
+    def peek(self):
+        return self.items[-1]
+
+    def size(self):
+        return len(self.items)
+
+class Solution:
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        ss = Stack()
+        balanced = True
+        index = 0
+        while index < len(s) and balanced:
+            symbol = s[index]
+            if symbol in "([{":
+                ss.push(symbol)
+            else:
+                if ss.is_empty():
+                    balanced = False
+                else:
+                    top = ss.pop()
+                    if not matches(top,symbol):
+                        balanced = False
+            
+            index = index + 1
+            
+        if ss.is_empty() and balanced:
+            return True
+        else:
+            return False
+            
+def matches(open,close):
+    opens = '([{'
+    closes =')]}'
+    return opens.index(open) == closes.index(close)
+        
